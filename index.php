@@ -1,6 +1,7 @@
 <!--
 Socket Based Port Scanner
 Written by Aamer Shah
+www.aamer.me.pn
 -->
 <?php $tyme = microtime();
 $tyme = explode(' ', $tyme);

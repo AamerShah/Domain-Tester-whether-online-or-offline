@@ -1,3 +1,7 @@
+<!--
+Socket Based Port Scanner
+Written by Aamer Shah
+-->
 <?php $tyme = microtime();
 $tyme = explode(' ', $tyme);
 $tyme = $tyme[1] + $tyme[0];

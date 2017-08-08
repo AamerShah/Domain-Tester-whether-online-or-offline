@@ -65,7 +65,7 @@ if(!empty($_POST['site'])) {
     fwrite($logfile, $_POST['site'] . ", Requester:" . $ip . ", Time:" . $today . ", Status Code:" . $socket . "\n\n");
     fclose($logfile);
     echo "<hr width=70%><small>Log Saved successfully!" . $disp;
-    }
+    }//}
 else { echo 'Valid hostname required!';exit;}
 ?><hr width=70%></strong><?php
 $tyme = microtime();
